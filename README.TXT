@@ -79,3 +79,5 @@ John Carmack
 
 Copyright (c) ZeniMax Media Inc.
 Licensed under the GNU General Public License 2.0.
+
+Many thanks for the patches and fixes taken from https://www.deusinmachina.net/p/lets-compile-linux-doom.
