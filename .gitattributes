@@ -1,0 +1,2 @@
+# Fix C being confused as C++
+*.c linguist-language=C
