@@ -84,6 +84,9 @@ clean:
 	rm -f *.o *~ *.flc
 	rm -f linux/*
 
+wad:
+	cp ../resources/doom1.wad linux/doom.wad
+
 $(O)/linuxxdoom:	$(OBJS) $(O)/i_main.o
 	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJS) $(O)/i_main.o \
 	-o $(O)/linuxxdoom $(LIBS)
