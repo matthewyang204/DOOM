@@ -78,7 +78,7 @@ OBJS=				\
 		$(O)/info.o				\
 		$(O)/sounds.o
 
-all:	 $(O)/linuxxdoom wad
+all:	linux $(O)/linuxxdoom wad
 
 clean:
 	rm -f *.o *~ *.flc
@@ -86,6 +86,9 @@ clean:
 
 wad:
 	cp ../resources/doom1.wad linux/doom1.wad
+
+linux:
+	mkdir -p linux
 
 $(O)/linuxxdoom:	$(OBJS) $(O)/i_main.o
 	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJS) $(O)/i_main.o \
