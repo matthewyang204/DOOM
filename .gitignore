@@ -56,3 +56,8 @@ dkms.conf
 
 # compile output
 linux/
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
