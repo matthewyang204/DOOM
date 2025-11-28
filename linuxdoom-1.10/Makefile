@@ -78,13 +78,13 @@ OBJS=				\
 		$(O)/info.o				\
 		$(O)/sounds.o
 
-all:	linux $(O)/linuxxdoom wad
+all:	linux $(O)/linuxxdoom linux/doom1.wad
 
 clean:
 	rm -f *.o *~ *.flc
 	rm -f linux/*
 
-wad:
+linux/doom1.wad:
 	cp ../resources/doom1.wad linux/doom1.wad
 
 linux:
