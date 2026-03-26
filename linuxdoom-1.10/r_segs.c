@@ -94,7 +94,13 @@ lighttable_t**	walllights;
 
 short*		maskedtexturecol;
 
+#ifndef MAXSHORT
+#define MAXSHORT SHRT_MAX
+#endif
 
+#ifndef MINSHORT
+#define MINSHORT SHRT_MIN
+#endif
 
 //
 // R_RenderMaskedSegRange
