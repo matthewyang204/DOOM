@@ -61,3 +61,12 @@ linux/
 .vscode/
 .idea/
 *.code-workspace
+
+# macOS metadata shit
+.DS_Store
+._*
+*DS_Store
+
+# GNU nano annoyances
+*.save
+*.swp
